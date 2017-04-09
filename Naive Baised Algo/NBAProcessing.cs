@@ -167,7 +167,7 @@ namespace Naive_Baised_Algo
         {
 
             double[] finalValueHolder = new double[lastColumn.Length];
-            double sum = 0, result;
+            double sum = 1, result;
 
             for (int i = 0; i < lastColumn.Length; i++)
             {
