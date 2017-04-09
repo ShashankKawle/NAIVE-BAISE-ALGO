@@ -173,7 +173,7 @@ namespace Naive_Baised_Algo
             {
                 foreach (var item in dataHolder)
                 {
-                    sum = sum + item[i];
+                    sum = sum * item[i];
                 }
                 result = (sum * lastColumnValueCount[i])/totalLength;
                 finalValueHolder[i] = result;
